@@ -1,0 +1,36 @@
+{
+  "name": "JADYun",
+  "version": "1.2.0",
+  "summary": "JADYun.",
+  "authors": {
+    "xxx": "xxx@xxx.com"
+  },
+  "homepage": "https://www.xxx.com/",
+  "frameworks": [
+    "SafariServices",
+    "CoreLocation",
+    "MapKit",
+    "AdSupport",
+    "CoreTelephony",
+    "SystemConfiguration",
+    "WebKit",
+    "ImageIO",
+    "Accelerate",
+    "Photos",
+    "AssetsLibrary",
+    "CoreServices"
+  ],
+  "libraries": [
+    "z",
+    "sqlite3"
+  ],
+  "source": {
+    "http": "https://github.com/happytour/LYSpecs/raw/main/Specs/JADYun/1.2.0/JADYun.framework.zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "ios": {
+    "vendored_frameworks": "JADYun.framework"
+  }
+}
