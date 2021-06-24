@@ -1,0 +1,30 @@
+{
+  "name": "QySdk",
+  "version": "1.3.2",
+  "summary": "QySdk.",
+  "authors": {
+    "xxx": "xxx@xxx.com"
+  },
+  "homepage": "https://www.xxx.com/",
+  "frameworks": [
+    "WebKit",
+    "CoreLocation",
+    "CoreTelephony",
+    "StoreKit",
+    "AVFoundation",
+    "AdSupport"
+  ],
+  "libraries": [
+    "xml2"
+  ],
+  "source": {
+    "http": "https://github.com/happytour/LYSpecs/raw/main/Specs/QySdk/1.3.2/QySdk.framework.zip"
+  },
+  "resources": "QYResource.bundle",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "ios": {
+    "vendored_frameworks": "QySdk.framework"
+  }
+}
